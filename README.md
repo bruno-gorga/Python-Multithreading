@@ -5,7 +5,7 @@ GIL (Global Interpreter Lock) is a particular CPython implementation. It is a mu
 
 Here we use BeautifulSoup library to help us with the scraping and concurrent.futures to allow the setup of the multithreading execution of the code.
 
-We have two main functions: one responsible for extracting the link of each of the IMDB Top 100 Movies individual pages (def extract_movies (soup)) and the other for extracting the respective data of said movies, namely name, year of release and rate.
+We have two main functions: one responsible for extracting the link of each of the IMDB Top 100 Movies individual pages (def extract_movies (soup)) and the other for extracting the respective data of said movies, namely: name, year of release and rate.
 
 Time library is used to measure the time needed to execute the instructions and generate a csv file with the scraped data.
 
